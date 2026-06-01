@@ -1,0 +1,11 @@
+.contact-wrapper { text-align: center; }
+.contact-desc { color: var(--muted); font-size: 1rem; margin-bottom: 2.5rem; line-height: 1.8; }
+.contact-links { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; }
+.contact-link { display: flex; align-items: center; gap: 0.6rem; font-family: 'Space Mono', monospace; font-size: 0.78rem; color: var(--muted); text-decoration: none; border: 1px solid rgba(255,255,255,0.08); padding: 0.85rem 1.6rem; border-radius: 2px; transition: all 0.2s; }
+.contact-link:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+
+@media (max-width: 480px) {
+  .contact-links { flex-direction: column; align-items: center; }
+  .contact-link { width: 100%; max-width: 320px; justify-content: center; }
+  .contact-desc { font-size: 0.92rem; }
+}
