@@ -13,7 +13,7 @@ export default function Hero() {
           <a href="#projects" className="btn btn-primary">View Projects</a>
           <a href="#contact" className="btn btn-secondary">Get in touch</a>
           <a
-            href="https://drive.google.com/file/d/1Fdg28AovN_1Vd-hF0G4Cp4Hk2IYhvlBv/view?usp=sharingذ"
+            href="https://drive.google.com/file/d/1Fdg28AovN_1Vd-hF0G4Cp4Hk2IYhvlBv/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="btn btn-cv"
